@@ -9,6 +9,8 @@ import { Preferences } from '@capacitor/preferences';
 })
 export class PhotoService {
 
+  public photos: UserPhoto[] = [];
+
   constructor() { }
 
   public async addNewToGallery() {
@@ -18,5 +20,16 @@ export class PhotoService {
       source: CameraSource.Camera,
       quality: 100
     });
+
+    this.photos.unshift({
+      filepath: "soon...",
+      webviewPath: capturedPhoto.webPath!
+    });
+
   }
+}
+
+export interface UserPhoto {
+  filepath: string;
+  webviewPath?: string;
 }

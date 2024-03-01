@@ -4,7 +4,7 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
 
 
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-// import { CommonModule } from '@angular/common';
+import { CommonModule } from '@angular/common';
 // import { FormComponentComponent } from './form-component/form-component.component';
 //import { IonicModule } from '@ionic/angular';
 
@@ -15,7 +15,7 @@ import { PhotoService } from '../services/photo.service';
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent, ExploreContainerComponent],
+  imports: [IonHeader, IonToolbar, IonTitle, IonContent, ExploreContainerComponent, CommonModule],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class Tab2Page {
