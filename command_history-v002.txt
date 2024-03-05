@@ -297,3 +297,19 @@
   636  cd photo-gallery/
   637  git status
   638  history > command_history-v002.txt
+  639  eval "$(ssh-agent -s)"
+  640  ssh-add /home/mahesh/ws/githubsshkey/mpd.key
+  641  git status
+  642  git add .
+  643  git status
+  644  git commit -m "deploy to android mobile"
+  645  git status
+  646  git push
+  647  git status
+  648  ionic cap run android -l --external
+  649  git status
+  650  git add .
+  651  git status
+  652  git commit -m "delete photo and live reload"
+  653  git status
+  654  history > command_history-v003.txt
