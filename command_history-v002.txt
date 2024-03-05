@@ -1,0 +1,299 @@
+  340  cd ws/
+  341  ls
+  342  mkdir courses
+  343  cd courses/
+  344  mkdir hmadv32
+  345  cd hmadv32/
+  346  node --version
+  347  npm --version
+  348  git --version
+  349  npm install -g @ionic/cli native-run cordova-res
+  350  sudo npm install -g @ionic/cli native-run cordova-res
+  351  ionic start photo-gallery tabs --type=angular --capacitor
+  352  ls -l
+  353  rm -rf photo-gallery/
+  354  ls -l
+  355  ionic start photo-gallery tabs --type=angular --capacitor
+  356  git status
+  357  rm -rf photo-gallery/
+  358  ionic start photo-gallery tabs --type=angular --capacitor
+  359  npm install -g @ionic/cli native-run cordova-res
+  360  sudo npm install -g @ionic/cli native-run cordova-res
+  361  ls -l
+  362  cd photo-gallery/
+  363  git status
+  364  npm install @capacitor/camera @capacitor/preferences @capacitor/filesystem
+  365  npm install @ionic/pwa-elements
+  366  ionic serve
+  367  ionic serve -verbose
+  368  ionic serve --verbose
+  369  netstat -anp | find ":8100"
+  370  sudo apt install net-tools
+  371  netstat -anp | find ":8100"
+  372  sudo netstat -anp | find ":8100"
+  373  sudo netstat -anp
+  374  netstat -anpe | grep "1234" | grep "LISTEN"
+  375  netstat -anpe | grep "8100" | grep "LISTEN"
+  376  netstat -anpe
+  377  ionic serve --verbose
+  378  ionic serve --verbose --port=8200
+  379  exit
+  380  code .
+  381  exit
+  382  npm --version
+  383  node --version
+  384  sudo apt update
+  385  sudo apt upgrade
+  386  sudo apt update
+  387  sudo apt-get update && sudo apt-get install -y ca-certificates curl gnupg
+  388  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+  389  NODE_MAJOR=20
+  390  echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+  391  sudo apt-get update
+  392  sudo apt-get install nodejs -y
+  393  node --version
+  394  npm --version
+  395  cd ws/
+  396  cd courses/
+  397  ls -l
+  398  cd hmadv32/
+  399  cd photo-gallery/
+  400  ionic serve
+  401  exit
+  402  cd ..
+  403  code .
+  404  eval "$(ssh-agent -s)"
+  405  ssh-add /home/mahesh/ws/githubsshkey/mpd.key
+  406  cd photo-gallery/
+  407  git status
+  408  ls -al
+  409  git status
+  410  git add .
+  411  git status
+  412  git history
+  413  git logs
+  414  git log
+  415  git commit -m "Ionic basic app v001"
+  416  git log
+  417  git status
+  418  git remote add origin git@github.com:maheshvnit/hmadapp1.git
+  419  git branch -M main
+  420  git status
+  421  git push -u origin main
+  422  git status
+  423  git pull
+  424  git status
+  425  ionic g service services/photo
+  426  git status
+  427  git add .
+  428  git status
+  429  git commit -m "photo gallery"
+  430  git status
+  431  git push
+  432  git status
+  433  git add .
+  434  git commit -m "take photo gallery"
+  435  git status
+  436  git push
+  437  git status
+  438  git add .
+  439  git status
+  440  git commit -m "save photo gallery"
+  441  git status
+  442  git push
+  443  git status
+  444  git add .
+  445  git status
+  446  git commit -m "load saved photo gallery"
+  447  git status
+  448  git push
+  449  git status
+  450  ionic cap copy
+  451  ionic cap sync
+  452  git status
+  453  git add .
+  454  git commit -m "added iOS and Android device and capacitor"
+  455  git status
+  456  git push
+  457  git status
+  458  cd ws/courses/hmadv32/
+  459  ls -l
+  460  rm -rf photo-gallery/
+  461  ls -l
+  462  npm install -g @ionic/cli native-run cordova-res
+  463  sudo npm install -g @ionic/cli native-run cordova-res
+  464  ionic start photo-gallery tabs --type=angular --capacitor
+  465  cd photo-gallery
+  466  npm install @capacitor/camera @capacitor/preferences @capacitor/filesystem
+  467  npm install @ionic/pwa-elements
+  468  ionic serve
+  469  ionic build
+  470  npm i @capacitor/core
+  471  ionic build
+  472  npm i -D @capacitor/cli
+  473  npx cap init
+  474  ionic build
+  475  npm i @capacitor/android @capacitor/ios
+  476  ionic build
+  477  ionic cap add ios
+  478  ionic cap add android
+  479  ionic serve
+  480  history
+  481  cd ws/courses/hmadv32/photo-gallery/
+  482  git status
+  483  history
+  484  history > command_history-v001.txt
+  485  cd ws/courses/hmadv32/photo-gallery/
+  486  ionic cap open android
+  487  git status
+  488  ionic cap run android
+  489  adb devices
+  490  ionic info
+  491  ionic cap run android
+  492  sudo apt install adb
+  493  adb devices
+  494  ionic cap run android
+  495  pwd
+  496  sudo gedit /etc/environment
+  497  echo $ANDROID_SDK_ROOT
+  498  source /etc/environment
+  499  echo $ANDROID_SDK_ROOT
+  500  ionic cap run android
+  501  ionic cap run android --list
+  502  adb devices
+  503  ionic cap run android --list --verbose
+  504  native-run android --list
+  505  echo $ANDROID_SDK_ROOT
+  506  ls -l /home/mahesh/Android/Sdk
+  507  npx native-run android --list
+  508  export ANDROID_SDK_ROOT="/home/mahesh/Android/Sdk"
+  509  export ANDROID_HOME="/home/mahesh/Android/Sdk"
+  510  npx native-run android --list
+  511  adb devices
+  512  ionic cap run android --list --verbose
+  513  ionic cap run android
+  514  java
+  515  java -version
+  516  sudo apt-cache search openjdk
+  517  sudo apt install default-jdk -y
+  518  java -version
+  519  ionic cap run android
+  520  ionic cap open android
+  521  ionic cap run android
+  522  ionic cap run android --list --verbose
+  523  adb devices
+  524  ionic cap run android
+  525  npx cap run android
+  526  ionic cap run android
+  527  cd ..
+  528  code .
+  529  echo $PATH
+  530  echo $ANDROID_SDK_ROOT
+  531  echo $ANDROID_SDK_ROOT
+  532  source /etc/environment
+  533  echo $ANDROID_SDK_ROOT
+  534  java
+  535  javac
+  536  javac --version
+  537  java --version
+  538  npx native-run android --list
+  539  echo $ANDROID_SDK_ROOT
+  540  gradle -v
+  541  echo $ANDROID_SDK_ROOT
+  542  npx native-run android --list
+  543  adb devices
+  544  cd ..
+  545  adb devices
+  546  npx native-run android --list
+  547  code .
+  548  adb devices
+  549  npx native-run android --list
+  550  sudo apt update -y
+  551  apt upgrade -y
+  552  sudo apt upgrade -y
+  553  sudo apt install wget unzip -y
+  554  sudo apt install default-jdk -y
+  555  java -version
+  556  sudo apt install snapd -y
+  557  sudo snap install gradle
+  558  sudo snap install gradle --classic
+  559  gradle -v
+  560  sudo npm install @capacitor/android
+  561  cd ws/courses/hmadv32/photo-gallery/
+  562  npm install @capacitor/android
+  563  npx cap open android
+  564  npx cap run android
+  565  gradle -v
+  566  sudo snap remove gradle
+  567  gradle -v
+  568  sudo apt remove default-jdk
+  569  sudo apt remove default-jdk default-jre
+  570  sudo apt update
+  571  java -version
+  572  sudo apt remove default-jdk default-jre
+  573  java -version
+  574  sudo apt autoremove
+  575  java -version
+  576  sudo apt install openjdk-17-jdk -y
+  577  java -version
+  578  npx cap run android
+  579  npx cap open android
+  580  ionic serve
+  581  npx cap run android
+  582  ionic cap run android
+  583  ionic build
+  584  ionic cap copy
+  585  ionic cap sync
+  586  ionic cap run android
+  587  ionic cap sync
+  588  ionic cap run android
+  589  ionic serve
+  590  cd ws/courses/hmadv32/photo-gallery/
+  591  ionic cap run android
+  592  ionic cap run android --verbose
+  593  sudo apt update
+  594  sudo apt install
+  595  sudo apt upgrade
+  596  cd ws/courses/hmadv32/
+  597  code .
+  598  cd photo-gallery/
+  599  ionic serve
+  600  npx capacitor-assets generate
+  601  npx capacitor-assets generate --android
+  602  npm install @capacitor/assets --save-dev
+  603  npx capacitor-assets generate
+  604  npx capacitor-assets generate --android
+  605  npx @capacitor/assets generate
+  606  ionic build
+  607  npx @capacitor/assets generate --pwa
+  608  npx @capacitor/assets generate
+  609  ionic build
+  610  npx cap sync
+  611  npx cap copy
+  612  ionic cap run android --verbose
+  613  ionic build
+  614  git status
+  615  ionic cap open android --verbose
+  616  ionic cap run android --verbose
+  617  ionic build
+  618  ionic cap copy
+  619  ionic cap sync
+  620  ionic cap run android --verbose
+  621  ionic build
+  622  ionic cap sync
+  623  ionic cap run android --verbose
+  624  ionic cap sync
+  625  ionic cap run android --verbose
+  626  ionic cap sync
+  627  ionic cap run android --verbose
+  628  adb devices
+  629  ionic cap run android --list devices
+  630  ionic cap run android --list
+  631  ionic cap run android --verbose
+  632  cd ws/courses/hmadv32/photo-gallery/
+  633  ionic cap run android --verbose
+  634  cd ..
+  635  code .
+  636  cd photo-gallery/
+  637  git status
+  638  history > command_history-v002.txt

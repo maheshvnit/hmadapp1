@@ -1,0 +1,112 @@
+
+  340  cd ws/
+  341  ls
+  342  mkdir courses
+  343  cd courses/
+  344  mkdir hmadv32
+  345  cd hmadv32/
+  346  node --version
+  347  npm --version
+  348  git --version
+
+  384  sudo apt update
+  385  sudo apt upgrade
+  386  sudo apt update
+  387  sudo apt-get update && sudo apt-get install -y ca-certificates curl gnupg
+  388  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+  389  NODE_MAJOR=20
+  390  echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+  391  sudo apt-get update
+  392  sudo apt-get install nodejs -y
+  393  node --version
+  394  npm --version
+  395  cd ws/
+  396  cd courses/
+  397  ls -l
+  398  cd hmadv32/
+  399  cd photo-gallery/
+  400  ionic serve
+  401  exit
+  402  cd ..
+  403  code .
+  404  eval "$(ssh-agent -s)"
+  405  ssh-add /home/mahesh/ws/githubsshkey/mpd.key
+  406  cd photo-gallery/
+  407  git status
+  408  ls -al
+  409  git status
+  410  git add .
+  411  git status
+  412  git history
+  413  git logs
+  414  git log
+  415  git commit -m "Ionic basic app v001"
+  416  git log
+  417  git status
+  418  git remote add origin git@github.com:maheshvnit/hmadapp1.git
+  419  git branch -M main
+  420  git status
+  421  git push -u origin main
+  422  git status
+  423  git pull
+  424  git status
+  425  ionic g service services/photo
+  426  git status
+  427  git add .
+  428  git status
+  429  git commit -m "photo gallery"
+  430  git status
+  431  git push
+  432  git status
+  433  git add .
+  434  git commit -m "take photo gallery"
+  435  git status
+  436  git push
+  437  git status
+  438  git add .
+  439  git status
+  440  git commit -m "save photo gallery"
+  441  git status
+  442  git push
+  443  git status
+  444  git add .
+  445  git status
+  446  git commit -m "load saved photo gallery"
+  447  git status
+  448  git push
+  449  git status
+  450  ionic cap copy
+  451  ionic cap sync
+  452  git status
+  453  git add .
+  454  git commit -m "added iOS and Android device and capacitor"
+  455  git status
+  456  git push
+  457  git status
+  458  cd ws/courses/hmadv32/
+  459  ls -l
+  460  rm -rf photo-gallery/
+  461  ls -l
+  462  npm install -g @ionic/cli native-run cordova-res
+  463  sudo npm install -g @ionic/cli native-run cordova-res
+  464  ionic start photo-gallery tabs --type=angular --capacitor
+  465  cd photo-gallery
+  466  npm install @capacitor/camera @capacitor/preferences @capacitor/filesystem
+  467  npm install @ionic/pwa-elements
+  468  ionic serve
+  469  ionic build
+  470  npm i @capacitor/core
+  471  ionic build
+  472  npm i -D @capacitor/cli
+  473  npx cap init
+  474  ionic build
+  475  npm i @capacitor/android @capacitor/ios
+  476  ionic build
+  477  ionic cap add ios
+  478  ionic cap add android
+  479  ionic serve
+  480  history
+  481  cd ws/courses/hmadv32/photo-gallery/
+  482  git status
+  483  history
+  484  history > command_history-v001.txt
